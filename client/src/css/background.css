@@ -1,0 +1,81 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login_div {
+    /* background-position:; */
+    background-repeat: no-repeat;
+    background-image: url("building.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* width : 280px; */
+    /* margin-top: 10px; */
+    /* margin-top: -21px ;
+    margin-left: -8px ;
+    margin-right: -8px ;
+    margin-bottom: -31px ; */
+
+}
+.login_div h1{
+    color: azure;
+    width: 280px;
+    top: 220px;
+    left: 560px;
+    position: relative;
+    border-bottom: 6px solid #4caf50 ;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.textbox{
+    width: 280px;
+    top: 220px;
+    left: 560px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid #4caf50;
+    padding:8px 0;
+    margin-bottom: 10px;
+    
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+::placeholder{
+    color: rgb(158, 160, 161);
+    /* text-align: center; */
+}
+.login_div button{
+    width: 280px;
+    top: 420px;
+    padding: 5px;
+    left: 560px;
+    position: absolute;
+    background: none;
+    border: 2px solid#4caf50;
+    cursor: pointer;
+    color: beige;
+    margin-top: 15px;
+}
+/* .inner_login_div {
+    width: 280px;
+    position: absolute;
+    top:50%;
+    left: 50;
+    transform: translate(-50%,-50%);
+    color: white;
+} */
