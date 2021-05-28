@@ -18,10 +18,10 @@ app.use(express.static('./client/build'))
 // });
 
 const  connection = mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'avinash@123',
-    database:'apartment_db',
+    host:'sql6.freemysqlhosting.net',
+    user:'sql6415496',
+    password:'pJ5rLUJ1Zl',
+    database:'sql6415496',
     multipleStatements: true
 })
 
