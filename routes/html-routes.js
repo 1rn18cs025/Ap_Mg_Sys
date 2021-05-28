@@ -6,6 +6,7 @@ const auth = require('../middleware/auth');
 const config = require('config')
 module.exports = function(app,connection){
     app.post('/login',(req,res) =>{
+        console.log('avinshsdds')
         var sql = "SELECT * FROM USERS;"
         connection.query(sql,async function(err,data){
             const valid =  await bcrypt.compare(req.body.password,data[0].password)
